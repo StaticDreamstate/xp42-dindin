@@ -66,9 +66,65 @@ section p{
 
 @media screen and (max-width: 769px){
 
+    article { display: block; text-align: center; }
+
+    article p { width: 400px; margin-left: 25%; }
+
+    article video {
+        width: 562px;
+        height: 361px;
+    }
+
+    .content {
+        padding-top: 5%;
+    }
+
+    .banner {
+        background-image: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;    
+    }
+
+    .banner h1 {
+        margin: 25%;
+        margin-bottom: 2%;
+        width: 400px; 
+    }
+
+    .banner p { margin: 20%; margin-bottom: 2%; margin-top: 10%;}
+
 
 }
 
 @media screen and (max-width: 481px){
+
+    article { display: block; text-align: center; }
+
+    article p { width: 400px; margin-left: 7%; }
+
+    article video {
+        width: 362px;
+        height: 161px;
+    }
+
+    .content {
+        padding-top: 5%;
+    }
+
+    .banner {
+        background-image: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;    
+    }
+
+    .banner h1 {
+        margin: 15%;
+        width: 300px;
+    }
+
+    .banner p { margin: 2%; }
+
 
 }

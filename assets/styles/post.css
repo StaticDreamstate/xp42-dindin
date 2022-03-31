@@ -28,7 +28,7 @@ main h3 {
     text-align: start;  
 }
 
-main h4 {
+.thumbs h4 {
     text-align: center;
     margin-bottom: 101px;
     font-weight: 500;
@@ -63,6 +63,8 @@ main h4 {
     justify-content: space-evenly;
 }
 
+
+
 .thumbs h5 {
     width: 267px;
     height: 35.71px;
@@ -96,23 +98,113 @@ main h4 {
 
 @media only screen and (max-width: 769px) {
 
+    header { width: 68%;}
+    footer { width: 68%; }
+    
+    footer h2 a {
+        
+        width: 100px;
+        height: 102px;
+    }
+
+    header h2 a {
+        
+        width: 70px;
+        height: 100px;
+    }
+
+    main h3 {
+        text-align: center;
+    }
+
+    .post-container { display: block; }
+
+    .post-container h1 { margin: -15% 0% 5% 7%; width: 370px; }
+
+    .post-container p, h3 {
+        width: 370px;
+        margin: 5% 0% 5% 7%;
+    }
+
+    .thumbs {
+        display: block;
+        margin-left: 5%;
+    }
+
+    .thumbs p, h5 {
+        padding: 5px 0 5px 10%;
+        width: 300px;
+        text-align: justify;
+    }
+
+    .thumbs h4 {
+        width: 400px;
+        margin: 10px;
+   
+        }
+            
+    .data {
+        display: block;
+        width: 350px;
+        text-align: center;
+        margin: 5% 0% 5% 7%;
+    }
+
     img {
         display: none;
     }
 
 }
+
 
 @media only screen and (max-width: 481px) {
 
+    main { margin: 0; padding: 0; text-align: center;}
+
+    main h3 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    main h4 {
+        margin: 20% 5% 20% 20%;
+    }
+
+    main h5 {
+        margin: 10% 5% 10% 10%;
+    }
+
     img {
         display: none;
     }
 
-    .post-container p, h1, h3, h5 {
 
-        width: 30%;
-        text-align: center;
-        padding: 5%;
-        align-items: center;
+    .post-container { display: block; }
+
+    .post-container h1 { margin: -15% 5% 5% 7%; width: 370px; }
+
+    .post-container p, h3 {
+        width: 370px;
+        margin: 5% 5% 5% 7%;
     }
+ 
+    .data {
+        width: 350px;
+        text-align: center;
+        margin: 5% 5% 5% 7%;
+    }
+
+    .thumbs p {
+        margin: 5px 0 25px 25px;
+   
+        }
+        
+
+    .thumbs a {
+        margin: 15%;
+        margin-bottom: 25%;
+       
+            }
+
 }
+

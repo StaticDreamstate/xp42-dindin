@@ -115,32 +115,31 @@
     }
 
     .banner { 
-        padding-left: 5%;
-        background-image: none;    
+        background-image: none;   
+        margin: 0;
+        padding: 5% 0 35% 0; 
     }
-    
+
+    .banner h1 {
+        margin-left: -15%;
+    }
+
+    .banner p { margin-left: -10%; }
+
     .post-container {
         display: block;
-        width: 100%;
-        padding: auto;
+        width: 95%;
+        margin: 5%;
+        padding: 5% 0 5% 0;
     }
 
     .post {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: block;
     }
 
-        .post h3 {
-            width: auto;
-            padding-left: 5%;
+        .post h3, p {
+            padding: 5% 5% 5% 5%;
         }
-
-        .post p {
-            width: auto;
-            padding: 5%;
-        }
-
 
         .post img {
             display: none;
