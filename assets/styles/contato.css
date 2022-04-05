@@ -49,16 +49,26 @@ main {
  }
  
  @media only screen and (max-width: 769px) {
- 
+
+    header nav {
+        margin-right: 5%;
+    }
+
+    footer {
+        width: 710px;
+    }
+  
      form {
          padding:0;
          background-image: none;
+         margin-right: 10%;
      }
  
  }
  
  @media only screen and (max-width: 481px) {
  
+  
      main {
          padding-top: 50px;
      }

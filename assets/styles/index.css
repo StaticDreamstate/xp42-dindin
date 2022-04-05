@@ -147,13 +147,13 @@ main .container {
     font-size: 37px;
     font-weight: 700;
     line-height: 43px;
-    margin: 91px 0 73px;
+    margin: 91px 25px 73px 25px;
 }
 
 .lista-posts .posts {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 135px;
+    margin: 0 25px 135px 25px;
 }
 
 .lista-posts .post img {
@@ -199,6 +199,9 @@ main .container {
 
 @media only screen and (max-width: 769px) {
 
+    header {
+        margin: 0;
+    }
     main { 
         text-align: center;
         padding-left: 0;
@@ -213,7 +216,6 @@ main .container {
     }
 
     .hero a {
-        margin: 5% 0 5% -35%;
 
     }
 
@@ -248,12 +250,18 @@ main .container {
      
     }
 
-    .lista-posts h2 p {
-        padding: 5% 5% 5% 5%;
-    }
 
 
 @media only screen and (max-width: 481px) {
+
+    .lista-depoimentos .depoimento {
+        display: block;
+        margin-bottom: 86px;
+    }
+
+    .container {
+        width: 318px;
+    }
     
     main { 
         text-align: center;
@@ -277,9 +285,13 @@ main .container {
         
     }
 
+    .curso img {
+        margin-left: 20px;
+    }
 
     .hero a {
         padding: 2% 0px 2% 0px;
+        margin-right: 5%;
     }
 
     .lista-cursos {
@@ -297,6 +309,10 @@ main .container {
 
     div .posts {
         display: table-column;
+    }
+
+    .lista-depoimentos h2 {
+        margin-left: 5%;
     }
 
     .lista-depoimentos .depoimento p {
