@@ -74,6 +74,12 @@ hr {
 
 @media only screen and (max-width: 769px) {
 
+    .post-container {
+        overflow: unset;
+        margin: 15% 10% 15% 10%;
+    } 
+
+
     h1 { 
         text-align: center; 
         margin: 0 0 0 0%;
@@ -106,13 +112,14 @@ hr {
 
 @media only screen and (max-width: 481px) {
 
-    main { padding-top: 50px; padding-bottom: 25px;}
+    main { padding-top: 50px; }
 
     h1 { 
         text-align: center; 
         margin: 0 0 0 0%;
         padding: 0 0 10% 0
     }
+
     p { 
         text-align: center; 
         margin: 0 0 0 0%;
@@ -122,6 +129,10 @@ hr {
     hr { display: none; }
 
     h3 { margin-left: 0 0 0 0; padding: 0 0 5% 0; text-align: center; }
+
+    .post-container {
+        overflow: unset;
+    } 
 
     .post-container p { margin: 0 0 0 0; padding: 0 0 15% 0; text-align: center; }
 

@@ -1,3 +1,10 @@
+
+body {
+
+    margin: 0;
+    
+}
+
 .area-postagem{
     display: flex;
     flex-direction: column;
@@ -106,18 +113,41 @@ article h3{
 }
 
 @media screen and (max-width: 768px){
+
+    main {
+        text-align: center;
+    }
+    
     .area-postagem{
         width: auto;
     }
-
     .area-cards {
         display: block;
+        margin: 15%;
     }
+
+
+    .area-cards p {
+        width: 100%;
+        margin: 15% 0 15% 5%;
+     }
+ 
+     .area-cards h4 {
+         width: 100%;
+         margin: 15% 0 15% 0%;
+      }
+
+    .area-cards a {
+        width: 100%;
+        margin: 15% 0 15% 0%;
+     }
+
     img {
         display: none;
     }
     section h2{
         margin: 80px 20px 25px 20px;
+        text-align: center;
     }
     section p{
         margin: 18px 20px;
@@ -126,14 +156,38 @@ article h3{
 
     
 @media screen and (max-width: 481px){
+
+    body {
+        margin: 0;
+    }
+
+    main {
+        text-align: center;
+    }
+
     img {
         display: none;
     }
-    article h3{
-        width: 330px;
-        font-size: 30px;
+    article h3 {
+        width: 100%;
         margin-left: 10px;
     }
    
+    section h2 {
+        text-align: center;
+    }
+
+    .area-cards {
+        display: block;
+        margin: 15%;
+    }
+
+    .area-cards p {
+       margin: 15% 0 15% 5%;
+    }
+
+    .area-cards h4 {
+        margin: 25% 0 25% 0%;
+     }
 
 }

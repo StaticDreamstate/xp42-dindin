@@ -22,7 +22,7 @@
 
 <body>
 
-    <header class="wrapper">
+    <header>
         <div class="container">
             <h2>
                 <a href="index.html">Din Din - Educação Financeira</a>
@@ -40,35 +40,31 @@
     </header>
 
     <main>
-        <div class="container">
+        <form action="" method="post">
+            <fieldset>
+                <legend>Contato</legend>
 
-            <form action="" method="post">
-                <fieldset>
-                    <legend>Contato</legend>
+                <div>
+                    <input type="text" name="nome" placeholder="nome" required>
+                </div>
 
-                    <div>
-                        <input type="text" name="nome" placeholder="nome" required>
-                    </div>
+                <div>
+                    <input type="email" name="email" placeholder="email" required>
+                </div>
 
-                    <div>
-                        <input type="email" name="email" placeholder="email" required>
-                    </div>
+                <div>
+                    <textarea name="mensagem" cols="30" rows="10" placeholder="mensagem" required></textarea>
+                </div>
 
-                    <div>
-                        <textarea name="mensagem" cols="30" rows="10" placeholder="mensagem" required></textarea>
-                    </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
 
-                    <div>
-                        <input type="submit" value="Enviar">
-                    </div>
-
-                </fieldset>
-            </form>
-
-        </div>
+            </fieldset>
+        </form>
     </main>
 
-    <footer class="wrapper">
+    <footer>
         <div class="container">
             <h2>
                 <a href="index.html">Din Din - Educação Financeira</a>

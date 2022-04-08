@@ -199,54 +199,80 @@ main .container {
 
 @media only screen and (max-width: 769px) {
 
-    header {
-        margin: 0;
+    header .container {
+        width: 100%;
+        margin-right: 10%;
     }
-    main { 
+
+    footer .container {
+        width: 100%;
+        margin-right: 10%;
+    }
+
+    main {
         text-align: center;
-        padding-left: 0;
-        margin: 0;
-        
+        padding: 0;
+        margin: 5% 0 5% 5%;
+        width: 100%;
     }
 
     .hero {
         background-image: none;
-        padding: 5% 0 5% 0;
-        margin: 8% 0 8% 25%;
+        padding: 5% 5% 5% 5%;
+        margin-left: 10%;
     }
+
 
     .hero a {
+      
+        margin-right: 35%;
 
     }
-
-    .hero p { padding-bottom: 5%;
-        margin: 8% 0 8% 0%; }
 
 
     .lista-cursos {
         display: block;
-        margin: 8% 0 8% 25%;
-
+        margin-left: 15%;
+        padding: 5% 0 5% 0;
     }
 
-    .lista-cursos .curso {
-        width: 400px;
-        text-align: center;
+    article .curso img {
+        display: none;    
+
     }
 
     .lista-depoimentos {
-        display: block;
-        margin: 0% 0 0% 15%;
+        padding: 5% 0 5% 0;
+        margin-right: 5%;
     }
 
-    .lista-depoimentos h2, p {
-        padding: 5% 5% 5% 0%;
+    .lista-depoimentos h2 {
+        padding: 0;
+        margin: 5% 10% 5% 0;
     }
 
     .lista-posts {
+        margin-right: 20%;
+    }
+
+    .lista-posts .posts {
         display: block;
-        margin: 8% 0 8% 25%;
-        width: 600px;
+    }
+
+    .lista-posts .posts p {
+        margin-left: 20%;
+        padding: 5% 0 5% 0;
+    }
+
+    .lista-cursos .curso h3, p {
+        padding: 5% 0 5% 0;
+    
+    }
+
+   .lista-posts .posts img {
+        display: none;
+    }
+
      
     }
 
@@ -262,20 +288,40 @@ main .container {
     .container {
         width: 318px;
     }
-    
+
+    header .container {
+        display: block;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    footer .container  {
+        display: block;
+        margin-right: 10%;
+    }
+
+   footer > .container > nav > ul {
+       margin-left: 30%;
+   }
+
     main { 
         text-align: center;
         padding-left: 0;
+        width: 100%;
+        margin-left: 5%;
+        
     }
 
     .hero {
         background-image: none;
         padding: 5% 0px 5% 0px;
+        margin: 0px;
 
     }
     
     .lista-cursos {
             display: block;
+            margin: 10% 0% 10% 0;
         }
     
     article .curso img {
@@ -283,7 +329,6 @@ main .container {
     
         }
         
-    }
 
     .curso img {
         margin-left: 20px;
@@ -325,6 +370,7 @@ main .container {
     .lista-posts {
         width: 400px;
         text-align: center;
+        margin: 5% 0 5% 5%;
     }
 
 
